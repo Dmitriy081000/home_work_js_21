@@ -27,7 +27,8 @@ function curriedAdd(a) {
 const addFirst = curriedAdd(1)
 const addSecond = addFirst(2)
 const result = addSecond(3) // Повинно повернути 6
-console.log('Result:', result)
+console.log('Result:', result);
+document.write('<br> Result:', result);
 
 /*
  ? Ось як працює цей код:

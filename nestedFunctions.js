@@ -16,6 +16,7 @@ function outerFunction(arg1) {
 
 const resultTwo = outerFunction(2)(3)(4)
 console.log(resultTwo) // Повинно повернути 24 (2*3*4)
+document.write(resultTwo) // Повинно повернути 24 (2*3*4)
 
 /*
  Цей код є прикладом використання вкладених функцій у JavaScript, а також демонструє концепцію замикань (closures).

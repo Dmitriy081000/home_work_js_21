@@ -27,6 +27,7 @@ const protocolSetter = curriedDomain('https')
 const domainNameSetter = protocolSetter('example')
 const fullDomain = domainNameSetter('com') // Повинно повернути 'https://example.com'
 console.log('Full Domain:', fullDomain)
+document.write('<br> Full Domain: ', fullDomain)
 
 /*
  Ось як працює цей код:
